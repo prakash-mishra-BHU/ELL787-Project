@@ -31,8 +31,8 @@
 // https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Camera/CameraWebServer/camera_pins.h
 // ##################### Line, Wi-Fi settings (Preferences) #####################
 String clientId         = "$$ CHANGE REQUIRED $$$"
-String clientSecret     = "";                        // $$$ CHANGE REQUIRED $$$
-String refreshToken     = "";                        // $$$ CHANGE REQUIRED $$$
+String clientSecret     = "        ";                        // $$$ CHANGE REQUIRED $$$
+String refreshToken     = " hello ...";                        // $$$ CHANGE REQUIRED $$$
 String driveFolder      = "";                        // $$$ CHANGE REQUIRED $$$
 
 const char *ssid        = ""// $$$ CHANGE REQUIRED $$$
