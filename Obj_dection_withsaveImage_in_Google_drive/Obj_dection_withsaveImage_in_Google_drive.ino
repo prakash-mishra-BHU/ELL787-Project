@@ -30,21 +30,21 @@
 // Select camera model - find more camera models in camera_pins.h file here
 // https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Camera/CameraWebServer/camera_pins.h
 // ##################### Line, Wi-Fi settings (Preferences) #####################
-String clientId         = "110779100661-hvit1dv77p35aqjbjgt1vinfvd0g9htu.apps.googleusercontent.com"; // $$$ CHANGE REQUIRED $$$
-String clientSecret     = "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";                        // $$$ CHANGE REQUIRED $$$
-String refreshToken     = "1//0gqHDXQkszUkICgYIARAAGBASNwF-L9Ir3sGj19o2vG606OhSyE_OzF2OWIFWBf7ujmkomPsMtbp-bIazZn2FebFf84Q-7Yzcv0M";                        // $$$ CHANGE REQUIRED $$$
-String driveFolder      = "1FHZ6_E7jh41om1s1EvcGYy8XBTTknZ-0";                        // $$$ CHANGE REQUIRED $$$
+String clientId         = "$$ CHANGE REQUIRED $$$"
+String clientSecret     = "";                        // $$$ CHANGE REQUIRED $$$
+String refreshToken     = "";                        // $$$ CHANGE REQUIRED $$$
+String driveFolder      = "";                        // $$$ CHANGE REQUIRED $$$
 
-const char *ssid        = "OPPOF19Pro"; // $$$ CHANGE REQUIRED $$$
-const char *password    = "12345678"; // $$$ CHANGE REQUIRED $$$
+const char *ssid        = ""// $$$ CHANGE REQUIRED $$$
+const char *password    = ""; // $$$ CHANGE REQUIRED $$$
 
 const int   Interval    = 20;                 // Image save interval (minutes) [OFF:-1]
 const int   SavaTime    = 15;                 // Image save time (0 to 24 hours exactly) [OFF:-1]
 // ###################################################################
-const char* refreshServer = "oauth2.googleapis.com";
-const char* refreshUri    = "/token";
-const char* apiServer     = "www.googleapis.com";
-const char* apiUri        = "/upload/drive/v3/files?uploadType=multipart";
+const char* refreshServer = "";
+const char* refreshUri    = "";
+const char* apiServer     = "";
+const char* apiUri        = "";
 String accessToken        = "";
 
 int preMin  = -1;     // last run time(for Interval)
